@@ -79,7 +79,160 @@ nav li a{
 .run-exercise-img{
  width: 25%;
 }
+/* Meet our team trainer section start here */
+.Team-trainer-container{
+  max-width: 1240px;
+  height: 785px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+.grettings{
+  max-width: 671px;
+  height: 120px;
+}
+.trainer-image{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+/* Trainer image 1 start here */
+.trainer1-img-container{
+  position: relative;
+  display: inline-block;
+}
+.trainer-1{
+  width: 100%;
+  height: auto;
+}
+.trainer1-heading{
+  position: absolute;
+  top: 65%;
+  color: white;
+  margin-left: 25px;
+}
+.trainer1-discription{
+  position: absolute;
+  top: 75%;
+  color: white;
+  margin-left: 25px;
+}
+/* Trainer image 1 ends here */
+/* Trainer image 2 start here */
+.trainer2-img-container{
+  position: relative;
+  display: inline-block;
+}
+.trainer-2{
+  width: 100%;
+  height: auto;
+}
+.trainer2-heading{
+  position: absolute;
+  top: 65%;
+  color: white;
+  margin-left: 25px;
+}
+.trainer2-discription{
+  position: absolute;
+  top: 75%;
+  color: white;
+  margin-left: 25px;
+}
+/* Trainer image 2 ends here */
+/* Trainer image 3 start here */
+.trainer3-img-container{
+  position: relative;
+  display: inline-block;
+}
+.trainer-3{
+  width: 100%;
+  height: auto;
+}
+.trainer3-heading{
+  position: absolute;
+  top: 65%;
+  color: white;
+  margin-left: 25px;
+}
+.trainer3-discription{
+  position: absolute;
+  top: 75%;
+  color: white;
+  margin-left: 25px;
+}
+/* Trainer image 3 ends here */
+/* Trainer image 4 start here */
+.trainer4-img-container{
+  position: relative;
+  display: inline-block;
+}
+.trainer-4{
+  width: 100%;
+  height: auto;
+}
+.trainer4-heading{
+  position: absolute;
+  top: 65%;
+  color: white;
+  margin-left: 25px;
+}
+.trainer4-discription{
+  position: absolute;
+  top: 75%;
+  color: white;
+  margin-left: 25px;
+}
+/* Trainer image 4 ends here */
+/* Trainer image 5 start here */
+.trainer5-img-container{
+  position: relative;
+  display: inline-block;
+}
+.trainer-5{
+  width: 100%;
+  height: auto;
+}
+.trainer5-heading{
+  position: absolute;
+  top: 65%;
+  color: white;
+  margin-left: 25px;
+}
+.trainer5-discription{
+  position: absolute;
+  top: 75%;
+  color: white;
+  margin-left: 25px;
+}
+/* Trainer image 5 ends here */
+/* Trainer image 6 start here */
+.trainer1-img-container{
+  position: relative;
+  display: inline-block;
+}
+.trainer-6{
+  width: 100%;
+  height: auto;
+}
+.trainer6-heading{
+  position: absolute;
+  top: 65%;
+  color: white;
+  margin-left: 25px;
+}
+.trainer6-discription{
+  position: absolute;
+  top: 75%;
+  color: white;
+  margin-left: 25px;
+}
+/* Trainer image 6 ends here */
 
+.trainer-image img{
+  width: 100%;
+  height: 320px;
+  border: 2px solid red;
+}
 /* Footer start start */
 .Footer-container{
   max-width: 100%;
@@ -135,3 +288,4 @@ margin-top: 70px;
   color: white;
   margin-top: 36px;
 }
+/* Footer ends here */
