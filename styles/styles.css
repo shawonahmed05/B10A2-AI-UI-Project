@@ -7,9 +7,6 @@ body {
   font-family: "Poppins", sans-serif;
   /* background-color: black; */
 }
-.miama-text {
-  font-family: 'Miama', sans-serif;
-}
 /*fonts style end here*/
 * {
   margin: 0;
@@ -23,19 +20,25 @@ body {
 .Header-container{
   max-width: 100%;
   height: 700px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: black;
 }
 
 .navbar-container{
   display: flex;
   justify-content: space-between;
-  max-width: 1240px;
+  align-items: center;
+  max-width: 1320px;
   height: 46px;
   margin: 0 auto;
+  padding-top: 70px;
 }
 .navbar-headline{
   color: #e6533c ;
+  width: 135px;
+  height: 45px;
+  font-size: 45px;
+  font-weight: 800px;
 }
 .navbar-ul{
   display: flex;
@@ -44,6 +47,7 @@ body {
 
 nav ul{
   list-style-type: none;
+  align-items: center;
   
 }
 
@@ -51,20 +55,88 @@ nav li a{
   text-decoration: none;
   color: white;
 }
+.fitness-home-button{
+  width: 95px;
+  height: 45px;
+  background-color: #e6533c;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 46px;
+}
+.fitness-service-nav{
+  font-size: 20px;
+  font-weight: 600;
+}
 .banner-container{
   display: flex;
-  max-width: 1240px;
+  justify-content: space-between;
+  max-width: 1320px;
   height: 440px;
   border: 2px solid red;
   margin: 0 auto;
   margin-top: 95px;
 }
+.main-banner{
+  width: 600px;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .banner-heading{
   color: white;
+  font-size: 70px;
+  font-weight: 900;
+  gap: 10px;
+}
+.shape-hidden{
+  color: black;
+}
+.banner-shape-style{
+  font-family: 'Miama', sans-serif;
+  font-size: 160px;
+  font-weight: 400;
+  position: absolute;
+  top: 270px;
+  left: 140px;
 }
 .banner-discription{
   color: white;
 }
+.header-img{
+  position: absolute;
+  right: 140px;
+  bottom: 73px;
+}
+.vedio-card{
+  width: 220px;
+  height: 105px;
+  border: 2px solid red;
+}
+.red-icon-card{
+  width: 40px;
+  height: 40px;
+  background-color: #e6533c;
+  border-radius: 50%;
+}
+.text-card h2{
+  font-size: 24px;
+  font-weight: 900;
+}
+.text-card p{
+  color: #aea9a5;
+}
+.workout-card{
+  width: 220px;
+  height: 105px;
+  border: 2px solid red;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background-color: black;
+  color: white;
+}
+
 /* header ends here */
 
 /* section 1 start here */
