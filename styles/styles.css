@@ -109,10 +109,21 @@ nav li a{
   right: 140px;
   bottom: 73px;
 }
+
 .vedio-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 220px;
   height: 105px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  border-radius: 12px;
+  /* background-color: #443b36; */
+  background-color: rgba(48, 48, 48, 0.54);
+  /* opacity: 0.8; */
+  position: relative;
+  left: 970px;
+  bottom: 200px ;
 }
 .red-icon-card{
   width: 40px;
@@ -123,6 +134,7 @@ nav li a{
 .text-card h2{
   font-size: 24px;
   font-weight: 900;
+  color: white;
 }
 .text-card p{
   color: #aea9a5;
@@ -130,16 +142,40 @@ nav li a{
 .workout-card{
   width: 220px;
   height: 105px;
-  border: 2px solid red;
+  padding: 20px 32px;
+  /* border: 2px solid red; */
   border-radius: 12px;
   backdrop-filter: blur(20px);
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.1);
   color: white;
+  position: relative;
+  left: 1310px;
+  bottom: 570px;
 }
 
 /* header ends here */
 
 /* section 1 start here */
+.havits-container{
+  margin-top: -100px;
+  max-width: 1320px;
+  height: 400px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+.havits-greeting{
+  max-width: 850px;
+  height: 65px;
+  border: 2px solid red;
+  margin: 0 auto;
+}
+.havits-greeting h1{
+  margin-left: 300px;
+}
+.havits-greeting p{
+  margin-top: 15px;
+  margin-left: 45px;
+}
 .havits-headline{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
