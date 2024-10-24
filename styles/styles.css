@@ -13,17 +13,12 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-.primary-button{
-  color: #e6533c;
-
-}
 .Header-container{
   max-width: 100%;
   height: 700px;
-  /* border: 2px solid red; */
   background-color: black;
 }
-
+/* Navbar Section start here */
 .navbar-container{
   display: flex;
   justify-content: space-between;
@@ -68,15 +63,18 @@ nav li a{
   font-size: 20px;
   font-weight: 600;
 }
+/* Navbar section end here */
+
+/* Banner Section start here */
 .banner-container{
   display: flex;
   justify-content: space-between;
   max-width: 1320px;
   height: 440px;
-  border: 2px solid red;
   margin: 0 auto;
   margin-top: 95px;
 }
+
 .main-banner{
   width: 600px;
   height: 440px;
@@ -84,30 +82,63 @@ nav li a{
   justify-content: center;
   align-items: center;
 }
+
 .banner-heading{
   color: white;
   font-size: 70px;
   font-weight: 900;
   gap: 10px;
 }
+
 .shape-hidden{
   color: black;
 }
+
 .banner-shape-style{
   font-family: 'Miama', sans-serif;
   font-size: 160px;
   font-weight: 400;
   position: absolute;
-  top: 270px;
+  top: 225px;
   left: 140px;
 }
+
 .banner-discription{
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 17px;
 }
+
 .header-img{
   position: absolute;
   right: 140px;
   bottom: 73px;
+}
+
+.button-container{
+  margin-top: 25px;
+  ;
+}
+
+.banner-btn1{
+  width: 224px;
+  height: 55px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #e6533c;
+  color: white;
+  margin-right: 10px;
+  border-radius: 42px;
+}
+
+.banner-btn2{
+  width: 224px;
+  height: 55px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 42px;
 }
 
 .vedio-card{
@@ -116,78 +147,81 @@ nav li a{
   align-items: center;
   width: 220px;
   height: 105px;
-  /* border: 2px solid red; */
   border-radius: 12px;
-  /* background-color: #443b36; */
   background-color: rgba(48, 48, 48, 0.54);
-  /* opacity: 0.8; */
   position: relative;
   left: 970px;
-  bottom: 200px ;
+  bottom: 200px;
 }
+
 .red-icon-card{
   width: 40px;
   height: 40px;
   background-color: #e6533c;
   border-radius: 50%;
 }
+
 .text-card h2{
   font-size: 24px;
   font-weight: 900;
   color: white;
 }
+
 .text-card p{
   color: #aea9a5;
 }
+
 .workout-card{
   width: 220px;
   height: 105px;
   padding: 20px 32px;
-  /* border: 2px solid red; */
   border-radius: 12px;
   backdrop-filter: blur(20px);
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #393939;
   color: white;
   position: relative;
   left: 1310px;
-  bottom: 570px;
-}
+  bottom: 570px;}
+/* Banner section end here */
 
-/* header ends here */
-
-/* section 1 start here */
+/* Havits section start here */
 .havits-container{
   margin-top: -100px;
   max-width: 1320px;
   height: 400px;
   margin: 0 auto;
-  border: 2px solid red;
-}
+  border: 2px solid red;}
+
 .havits-greeting{
   max-width: 850px;
   height: 65px;
   border: 2px solid red;
   margin: 0 auto;
 }
+
 .havits-greeting h1{
   margin-left: 300px;
 }
+
 .havits-greeting p{
   margin-top: 15px;
   margin-left: 45px;
 }
+
 .havits-headline{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
-
 .Run-exercise-container{
   display: flex;
 }
+
 .run-exercise-img{
  width: 25%;
 }
+/* Havits section end here */
+
 /* Meet our team trainer section start here */
 .Team-trainer-container{
   max-width: 1320px;
@@ -195,6 +229,7 @@ nav li a{
   margin: 0 auto;
   border: 2px solid red;
 }
+
 .grettings{
   max-width: 671px;
   height: 120px;
@@ -204,6 +239,7 @@ nav li a{
   text-align: center;
   margin-bottom: 70px;
 }
+
 .trainer-image{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -211,28 +247,33 @@ nav li a{
   padding: 20px 20px;
   border: 2px solid red;
 }
+
 .trainer-image img{
   width: 100%;
   height: 360px;
   object-fit: cover;
   border-radius: 18px;
-
 }
+/* Meet our team trainer section end here */
+
 /* Trainer image 1 start here */
 .trainer1-img-container{
   position: relative;
   display: inline-block;
 }
+
 .trainer-1{
   width: 100%;
   height: auto;
 }
+
 .trainer1-heading{
   position: absolute;
   top: 65%;
   color: white;
   margin-left: 25px;
 }
+
 .trainer1-discription{
   position: absolute;
   top: 75%;
@@ -240,21 +281,25 @@ nav li a{
   margin-left: 25px;
 }
 /* Trainer image 1 ends here */
+
 /* Trainer image 2 start here */
 .trainer2-img-container{
   position: relative;
   display: inline-block;
 }
+
 .trainer-2{
   width: 100%;
   height: auto;
 }
+
 .trainer2-heading{
   position: absolute;
   top: 65%;
   color: white;
   margin-left: 25px;
 }
+
 .trainer2-discription{
   position: absolute;
   top: 75%;
@@ -262,21 +307,25 @@ nav li a{
   margin-left: 25px;
 }
 /* Trainer image 2 ends here */
+
 /* Trainer image 3 start here */
 .trainer3-img-container{
   position: relative;
   display: inline-block;
 }
+
 .trainer-3{
   width: 100%;
   height: auto;
 }
+
 .trainer3-heading{
   position: absolute;
   top: 65%;
   color: white;
   margin-left: 25px;
 }
+
 .trainer3-discription{
   position: absolute;
   top: 75%;
@@ -284,21 +333,25 @@ nav li a{
   margin-left: 25px;
 }
 /* Trainer image 3 ends here */
+
 /* Trainer image 4 start here */
 .trainer4-img-container{
   position: relative;
   display: inline-block;
 }
+
 .trainer-4{
   width: 100%;
   height: auto;
 }
+
 .trainer4-heading{
   position: absolute;
   top: 65%;
   color: white;
   margin-left: 25px;
 }
+
 .trainer4-discription{
   position: absolute;
   top: 75%;
@@ -306,21 +359,25 @@ nav li a{
   margin-left: 25px;
 }
 /* Trainer image 4 ends here */
+
 /* Trainer image 5 start here */
 .trainer5-img-container{
   position: relative;
   display: inline-block;
 }
+
 .trainer-5{
   width: 100%;
   height: auto;
 }
+
 .trainer5-heading{
   position: absolute;
   top: 65%;
   color: white;
   margin-left: 25px;
 }
+
 .trainer5-discription{
   position: absolute;
   top: 75%;
@@ -328,21 +385,25 @@ nav li a{
   margin-left: 25px;
 }
 /* Trainer image 5 ends here */
+
 /* Trainer image 6 start here */
 .trainer1-img-container{
   position: relative;
   display: inline-block;
 }
+
 .trainer-6{
   width: 100%;
   height: auto;
 }
+
 .trainer6-heading{
   position: relative;
   top: -24%;
   color: white;
   margin-left: 25px;
 }
+
 .trainer6-discription{
   position: relative;
   top: -20%;
@@ -358,6 +419,7 @@ nav li a{
   border: 2px solid red;
   background-color: black;
 }
+
 .Footer-service{
   display: flex;
   color: white;
@@ -368,6 +430,7 @@ nav li a{
   margin-top: 70px;
   border: 2px solid red;
 }
+
 .Footer-title-1{
   
   width: 462px;
@@ -407,3 +470,99 @@ margin-top: 70px;
   margin-top: 36px;
 }
 /* Footer ends here */
+
+/* Responsive */
+@media only screen and (max-width:576px){
+  .Header-container {
+    height: auto; /* Adjust the height for mobile screens */
+  }
+  
+  .navbar-container {
+    flex-direction: column; /* Stack items vertically */
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .navbar-headline {
+    font-size: 30px; /* Smaller font size */
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .navbar-ul {
+    flex-direction: column; /* Stack nav items vertically */
+    gap: 20px; /* Reduce gap between items */
+  }
+
+  .navbar-ul li a {
+    font-size: 16px; /* Smaller font size */
+  }
+
+  .fitness-home-button {
+    width: 80px;
+    height: 40px;
+    font-size: 16px; /* Adjust button size */
+  }
+
+  .banner-container {
+    flex-direction: column; /* Stack the banner content */
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .main-banner {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-heading {
+    font-size: 40px; /* Smaller banner heading */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .banner-discription {
+    font-size: 14px; /* Smaller description */
+    text-align: center;
+  }
+
+  .header-img {
+    position: static; /* Adjust image for mobile */
+    margin-top: 20px;
+    width: 100%; /* Full width image */
+  }
+
+  .button-container {
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;
+  }
+
+  .banner-btn1,
+  .banner-btn2 {
+    width: 100%;
+    height: 45px; /* Adjust button sizes */
+    margin-bottom: 10px;
+  }
+
+  .vedio-card, .workout-card {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 15px; /* Add spacing between cards */
+  }
+
+  .red-icon-card {
+    width: 30px;
+    height: 30px; /* Smaller icon */
+  }
+
+  .text-card h2 {
+    font-size: 18px;
+  }
+
+  .text-card p {
+    font-size: 12px;
+  }
+}
